@@ -1,6 +1,6 @@
 ## Description
 This is a small example to illustrate how tracks can be generated and send to a STOPM broker.
-This samples send a single polygin which shape is updated constantly.
+This samples sends a single polygon which shape is updated constantly.
 
 ## How to install:
 Intall all the project dependencies with npm
