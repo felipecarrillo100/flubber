@@ -132,7 +132,7 @@ shapesLoader.load().then((shapes)=>{
     allShapes1 = shapes;
 	const trackEmitter = new TracksEmitter(
 		{
-			relayhost: "leu-gsp-vrndp06",  //  URL of your Broker (ActiveMQ, RabbitMQ or any other STOMP compliant Broker)
+			relayhost: "localhost",  //  URL of your Broker (ActiveMQ, RabbitMQ or any other STOMP compliant Broker)
 			port: "61613",           //  Port of your Broker, in most cases 61613 for http and 61612 for SSL
 			username: "admin",   //  A valid user defined in your Broker capable to send to /topic/  (see your Broker user guide to create the user)
 			password: "admin",   //  A valid user defined in your Broker capable to send to /topic/
